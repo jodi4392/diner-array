@@ -1,0 +1,286 @@
+/* css/style.css */
+/*============================================================
+ Resets
+============================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:.99em;
+	background:transparent;
+}
+ol, ul { list-style:none; }
+
+body 
+{
+	height:100%;
+	background: url("../images/bg.jpg") repeat;
+}
+h3, h2, h1
+{
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 500;
+	color: #85c9ec;
+}
+hr
+{
+	border: none;
+	height: 40px;
+	width: 60px;
+	background: url("../images/place.jpg") center no-repeat;
+	margin: 20px auto;
+}
+/*============================================================
+ Lauout
+============================================================*/
+#mainwrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	
+}
+#mainwrapper small
+{
+	display: block;
+	text-align: center;
+	margin: 40px 0 0;
+}
+#mainwrapper .closed 
+{
+	color: #d13916;
+}
+
+#mainwrapper .open 
+{
+	color: #67b512;
+}
+#mainwrapper #philosophy
+{
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px 50px;
+}
+#mainwrapper .member 
+{
+	width: 195px;
+	height: 440px;
+	float: left;
+	margin: 0px 0px 5px 5px;
+}
+#mainwrapper .member p
+{
+	padding: 0px 7px 0px 0px;
+}
+#mainwrapper #menu-items 
+{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px 50px;
+}
+#mainwrapper #dish
+{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px 50px;
+}
+.btnprev
+{
+	padding: 10px 15px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+#mainwrapper #team 
+{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px 50px;
+}
+
+.wrapper
+{
+	width: 100%;
+	background: #fff;
+}
+#banner 
+{}
+.content
+{}
+#footer
+{
+	padding-top: 10px;
+}
+/*============================================================
+ Navigation
+============================================================*/
+#nav
+{
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav li
+{
+	display: inline-block;
+	padding: 10px 5px;
+	margin: 5px;
+	border: solid 1px black;
+	border-radius: 7px;
+	background: #85c9ec;
+
+}
+#nav a
+{
+	text-decoration: none;
+	border: solid 1px black;
+	padding: 5px 10px;
+	border-radius: 1px;
+	background: #fff;
+	color: black;
+}
+#nav a:hover
+{
+	background: #c7e6f6;
+}
+.copyright-info
+{
+	background: #fff;
+}
+.column_three
+{
+	width: 190px;
+	margin-left: 35px;
+	float: left;
+}
+.column_three_last
+{
+	width: 200px;
+	float: left;
+}
+.cf
+{
+	display: inline-block;
+}
+#menu-items ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+#menu-items ul li a 
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #85c9ec;
+}
+
+.price 
+{
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	color: #353535;
+}
+
+/*============================================================
+ Contact Form
+============================================================*/
+#contact 
+{
+	width: 320px;
+	height: 540px;
+	margin: 0 auto;
+}
+
+#contact-form label
+{
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea
+{
+	border: solid 2px #353535;
+	outline: none;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0 0 10px;
+	width: 300px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#contact-form textarea
+{
+	resize: vertical;
+	height: 120px;
+}
+
+#contact-form input[type="checkbox"] + label
+{
+	display: inline;
+	cursor: pointer;
+}
+.button.next, input.button.next
+{
+	background: #85c9ec;
+	outline: solid 2px #85c9ec;
+	float: right;
+}
+
+.button.next:hover, input.button.next:hover
+{
+	background: #77b4d4;
+}
+
+input.button.next
+{
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
